@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+span{
+    /* display: block; */
+   
+}
+p{
+    background-color: blue;
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 10px;
+    color: white;
+}
+a{
+    all:unset;
+    cursor: pointer;
+}
+@media screen and (max-width: 780px) {
+    p{
+        word-wrap: break-word;
+        color: red;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    p{
+        word-wrap: break-word;
+        color: white;
+    }
+  }
